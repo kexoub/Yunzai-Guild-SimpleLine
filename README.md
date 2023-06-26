@@ -6,4 +6,4 @@ bash < <(curl -sL gitee.com/xyzqwefd/Yunzai-Guild-SimpleLine/raw/main/YunzaiGuil
 gpt写的  
 反正我能用  
 主打的就是简单  
-啥都想要推荐原版[trss脚本]（trss.me）
+啥都想要推荐原版trss脚本（trss.me）
