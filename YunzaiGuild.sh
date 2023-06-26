@@ -36,7 +36,7 @@ git clone --depth 1 https://gitee.com/yoimiya-kokomi/miao-plugin plugins/miao-pl
 npm install pnpm -g||（npm --registry=https://registry.npmmirror.com install pnpm -g）
 pnpm install -P||（pnpm install -P&&pnpm install -P）
 clear
-cd ..
+
 echo "正在安装频道插件"
 git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai-QQGuild-Plugin plugins/QQGuild-Plugin
 pnpm i
