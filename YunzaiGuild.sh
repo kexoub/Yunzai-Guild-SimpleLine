@@ -12,15 +12,6 @@ echo "1"
 apt update -y&& apt upgrade -y
 #更新软件源
 
-if [[ $EUID -ne 0 ]]; then
-    echo "需要以 root 权限运行脚本，请输入 root 密码："
-    sudo -v
-    if [[ $? -ne 0 ]]; then
-        echo "认证失败，请检查密码是否正确。"
-        exit 1
-    fi
-fi
-
 mkdir bot && cd bot 
 
 apt install curl wget unzip git
@@ -41,13 +32,13 @@ nvm alias default 18
 
 clear
 echo “开始安装npm”
-sudo apt-get install npm -y
-sudo npm install -g n
-sudo n stable # latest
+apt-get install npm -y
+npm install -g n
+n stable # latest
 echo "已经安装node$node_version'"
 
 #安装数据库
-sudo apt install redis-server -y
+apt install redis-server -y
 
 clear
 
