@@ -9,7 +9,7 @@ echo "3"
 echo "2"
 echo "1"
 
-apt update -y
+apt update -y && apt upgrade -y
 #更新软件源
 apt install curl wget unzip git
 #下载常用软件
