@@ -56,3 +56,4 @@ echo "安装完成"
 echo "TRSS Yunzai启动"
 
 node app
+#草
