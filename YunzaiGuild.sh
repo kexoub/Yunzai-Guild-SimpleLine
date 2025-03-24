@@ -1,12 +1,15 @@
 #!bin/bash
 #感谢时雨对云崽的贡献
 #root校验
+
 echo "此脚本可用于一键安装云崽服务端版本"
 echo "5"
 echo "4"
 echo "3"
 echo "2"
 echo "1"
+
+apt update -y&& apt upgrade -y
 
 if [[ $EUID -ne 0 ]]; then
     echo "需要以 root 权限运行脚本，请输入 root 密码："
@@ -20,7 +23,7 @@ fi
 mkdir bot && cd bot 
 clear
 #更新软件源
-apt update -y&& apt upgrade -y
+
 
 apt install curl wget unzip git
 
