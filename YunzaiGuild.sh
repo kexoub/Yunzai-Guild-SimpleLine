@@ -31,10 +31,11 @@ nvm alias default 18
 
 
 clear
-echo “开始安装npm”
+echo “开始安装npm~pnpm”
 apt-get install npm -y
 npm install -g n
 n stable # latest
+npm install -g pnpm
 echo "已经安装node$node_version'"
 
 #安装数据库
