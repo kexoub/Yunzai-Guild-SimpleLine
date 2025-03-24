@@ -58,4 +58,4 @@ pnpm i
 echo "安装完成"
 echo "TRSS Yunzai启动"
 
-cd bot && cd yz && node app
+node app
