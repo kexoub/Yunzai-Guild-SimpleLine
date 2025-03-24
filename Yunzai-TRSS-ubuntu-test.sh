@@ -74,12 +74,14 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pillow
 
 npx puppeteer browsers install
 
-
+pnpm i
 
 #安装必要组件puppeteer和chrome
 
 echo "安装完成"
 echo "TRSS Yunzai启动"
+
+
 
 node app
 #草
