@@ -11,7 +11,7 @@ if [[ $EUID -ne 0 ]]; then
     fi
 fi
 
-mkdir Bot && cd Bot 
+mkdir bot && cd bot 
 clear
 #更新软件源
 apt update -y&& apt upgrade -y
@@ -42,7 +42,10 @@ clear
 
 #使用gitee源
 git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai
-cd Yunzai
+
+mv Yunzai yz
+
+cd yz
 git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai-genshin plugins/genshin
 git clone --depth 1 https://gitee.com/yoimiya-kokomi/miao-plugin plugins/miao-plugin
 npm install pnpm -g||（npm --registry=https://registry.npmmirror.com install pnpm -g）
