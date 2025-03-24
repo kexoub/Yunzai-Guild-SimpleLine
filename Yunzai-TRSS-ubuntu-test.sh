@@ -22,8 +22,6 @@ apt install language-pack-zh-hans language-pack-gnome-zh-hans
 
 sudo locale-gen zh_CN.UTF-8
 
-sudo locale-gen zh_CN
-
 apt install python3-pip
 #建议不要动
 
