@@ -7,6 +7,9 @@ bash < <(curl -sL github.com/kexoub/Yunzai-TRSS-ubuntu-test/raw/main/Yunzai-TRSS
 ```
 bash < <(curl -sL ghfast.top/raw.githubusercontent.com/kexoub/Yunzai-TRSS-ubuntu-test/main/Yunzai-TRSS-ubuntu-test.sh)
 ```
+```
+curl -o- github.com/kexoub/Yunzai-TRSS-ubuntu-test/raw/main/Yunzai-TRSS-ubuntu-test.sh | bash
+```
 原脚本gpt写的
 纯自用，不喜勿喷
 ## trss~
