@@ -56,12 +56,6 @@ mv Yunzai yz
 
 cd yz
 
-pnpm install chromium -w
-pnpm add puppeteer@19.7.3 -w
-node ./node_modules/puppeteer/install.js
-
-apt install -y --force-yes --no-install-recommends fonts-wqy-microhei
-
 git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai-genshin plugins/genshin
 echo "由于gitee需要验证，所以改为github"
 git clone --depth 1 https://github.com/yoimiya-kokomi/miao-plugin plugins/miao-plugin
