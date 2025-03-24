@@ -9,7 +9,7 @@ echo "3"
 echo "2"
 echo "1"
 
-apt update -y&& apt upgrade -y
+apt update -y && apt upgrade -y
 #更新软件源
 
 apt install -y libnss3 libatk1.0-0 libx11-xcb1
