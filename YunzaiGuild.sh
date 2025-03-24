@@ -10,13 +10,25 @@ if [[ $EUID -ne 0 ]]; then
         exit 1
     fi
 fi
-makir Bot && cd Bot 
+
+mkdir Bot && cd Bot 
 clear
 #更新软件源
 apt update -y&& apt upgrade -y
+
+apt install curl wget unzip git
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+source ~/.bashrc
+
+nvm install 18
+
+nvm alias default 18
+
+
 clear
 echo “开始安装nodejs”
-sudo apt-get install nodejs -y
 sudo apt-get install npm -y
 sudo npm install -g n
 sudo n stable # latest
