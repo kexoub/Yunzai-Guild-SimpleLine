@@ -1,14 +1,11 @@
 # Yunzai-TRSS-ubuntu-test
 Ubuntu一键安装trss云崽及锅巴插件和喵喵插件
 ```
-bash < <(curl -sL https://raw.githubusercontent.com/kexoub/Yunzai-TRSS-ubuntu-test/main/Yunzai-TRSS-ubuntu-test.sh)
+curl -o- https://raw.githubusercontent.com/kexoub/Yunzai-TRSS-ubuntu-test/main/Yunzai-TRSS-ubuntu-test.sh | bash
 ```
 ## 或者加速
 ```
-bash < <(curl -sL ghfast.top/raw.githubusercontent.com/kexoub/Yunzai-TRSS-ubuntu-test/main/Yunzai-TRSS-ubuntu-test.sh)
-```
-```
-curl -o- https://raw.githubusercontent.com/kexoub/Yunzai-TRSS-ubuntu-test/main/Yunzai-TRSS-ubuntu-test.sh | bash
+curl -o- https://ghfast.top/raw.githubusercontent.com/kexoub/Yunzai-TRSS-ubuntu-test/main/Yunzai-TRSS-ubuntu-test.sh | bash
 ```
 原脚本gpt写的
 纯自用，不喜勿喷
