@@ -33,8 +33,9 @@ echo “开始安装npm~pnpm”
 apt-get install npm -y
 npm install -g n
 n stable # latest
-npm install -g pnpm
 echo "已经安装node$node_version'"
+
+npm install -g pnpm
 
 #安装数据库
 apt install redis-server -y
