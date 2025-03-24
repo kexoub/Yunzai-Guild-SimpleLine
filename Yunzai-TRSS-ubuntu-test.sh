@@ -60,6 +60,11 @@ pnpm i
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pillow
 #建议不要动
 
+pnpm install puppeteer --save
+
+npx puppeteer browsers install chrome
+#安装必要组件puppeteer和chrome
+
 echo "安装完成"
 echo "TRSS Yunzai启动"
 
