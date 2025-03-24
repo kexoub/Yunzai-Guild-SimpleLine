@@ -12,6 +12,10 @@ echo "1"
 apt update -y&& apt upgrade -y
 #更新软件源
 
+apt install -y libnss3 libatk1.0-0 libx11-xcb1
+
+apt-get install ca-certificates fonts-liberation libasound2 libatk-bridge2.0-0 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgbm1 libgcc1 libglib2.0-0 libgtk-3-0 libnspr4 libnss3 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 lsb-release wget xdg-utils libxkbcommon0 -y
+
 apt install language-pack-zh-hans language-pack-gnome-zh-hans
 
 sudo locale-gen zh_CN.UTF-8
@@ -75,7 +79,7 @@ pnpm i
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pillow
 #建议不要动
 
-apt install -y libnss3 libatk1.0-0 libx11-xcb1
+
 #安装必要组件puppeteer和chrome
 
 echo "安装完成"
