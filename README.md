@@ -7,4 +7,4 @@ gpt写的
 反正我能用  
 主打的就是简单  
 啥都想要推荐原版 ☞[trss脚本](trss.me)
-原版☞[脚本](https://gitee.com/xyzqwefd/Yunzai-Guild-SimpleLine/)
+原版☞[脚本](https://github.com/xyzqwefd/Yunzai-Guild-SimpleLine/)
