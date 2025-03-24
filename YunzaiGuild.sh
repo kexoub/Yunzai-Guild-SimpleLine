@@ -29,8 +29,6 @@ nvm install 18
 nvm alias default 18
 #让nvm默认启用nodejs18
 
-
-clear
 echo “开始安装npm~pnpm”
 apt-get install npm -y
 npm install -g n
@@ -40,8 +38,6 @@ echo "已经安装node$node_version'"
 
 #安装数据库
 apt install redis-server -y
-
-clear
 
 #使用gitee源
 git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai
