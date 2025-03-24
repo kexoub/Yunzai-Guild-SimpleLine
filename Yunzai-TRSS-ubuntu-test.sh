@@ -11,6 +11,8 @@ echo "1"
 
 apt update -y && apt upgrade -y
 #更新软件源
+apt install curl wget unzip git
+#下载常用软件
 
 apt install -y libnss3 libatk1.0-0 libx11-xcb1
 
@@ -28,9 +30,6 @@ apt install python3-pip
 #建议不要动
 
 mkdir bot && cd bot 
-
-apt install curl wget unzip git
-#下载常用软件
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 #下载nvm
