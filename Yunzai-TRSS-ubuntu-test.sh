@@ -79,6 +79,9 @@ pnpm i
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pillow
 #建议不要动
 
+npx puppeteer browsers install
+
+
 
 #安装必要组件puppeteer和chrome
 
