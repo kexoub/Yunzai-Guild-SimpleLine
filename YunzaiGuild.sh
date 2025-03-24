@@ -56,4 +56,5 @@ git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai-QQGuild-Plugin plug
 pnpm i
 echo "安装完成"
 echo "TRSS Yunzai启动"
-node app
+
+cd bot && cd yz && node app
