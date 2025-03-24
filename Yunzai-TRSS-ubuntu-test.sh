@@ -78,6 +78,8 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pillow
 
 apt install chromium-browser -y
 
+apt-get install -y software-properties-common
+
 apt install -y --force-yes --no-install-recommends fonts-wqy-microhei
 pnpm install -P
 #安装必要组件puppeteer和chrome
