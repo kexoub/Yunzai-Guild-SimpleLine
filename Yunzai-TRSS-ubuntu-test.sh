@@ -60,6 +60,8 @@ pnpm i
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pillow
 #建议不要动
 
+apt install -y libnss3 libatk1.0-0 libx11-xcb1
+
 pnpm install puppeteer --save
 
 npx puppeteer browsers install chrome
