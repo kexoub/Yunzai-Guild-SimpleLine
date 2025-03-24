@@ -1,5 +1,5 @@
 # Yunzai-TRSS-ubuntu-test
-Ubuntu原生安装trss版云崽及其频道插件，最大限度满足合规要求  
+Ubuntu一键安装trss云崽及锅巴插件和喵喵插件
 ```
 bash < <(curl -sL github.com/kexoub/Yunzai-TRSS-ubuntu-test/raw/main/Yunzai-TRSS-ubuntu-test)
 ```
