@@ -24,8 +24,6 @@ sudo locale-gen zh_CN.UTF-8
 
 sudo locale-gen zh_CN
 
-sudo dpkg-reconfigure locales
-
 apt install python3-pip
 #建议不要动
 
