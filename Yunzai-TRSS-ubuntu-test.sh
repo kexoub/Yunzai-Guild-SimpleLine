@@ -74,7 +74,17 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pillow
 
 npx puppeteer browsers install
 
+npx puppeteer browsers install chrome
+
+pnpm install chromium -w
+
+pnpm add puppeteer@19.7.3 -w
+
+node ./node_modules/puppeteer/install.js
+
 pnpm i
+
+apt install -y chromium-browser 
 
 #安装必要组件puppeteer和chrome
 
