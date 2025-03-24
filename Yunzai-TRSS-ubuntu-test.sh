@@ -9,11 +9,19 @@ echo "3"
 echo "2"
 echo "1"
 
-apt install python3-pip
-#建议不要动
-
 apt update -y&& apt upgrade -y
 #更新软件源
+
+apt install language-pack-zh-hans language-pack-gnome-zh-hans
+
+sudo locale-gen zh_CN.UTF-8
+
+sudo locale-gen zh_CN
+
+sudo dpkg-reconfigure locales
+
+apt install python3-pip
+#建议不要动
 
 mkdir bot && cd bot 
 
