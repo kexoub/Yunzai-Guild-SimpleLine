@@ -29,12 +29,6 @@ nvm install 18
 nvm alias default 18
 #让nvm默认启用nodejs18
 
-echo “开始安装npm~pnpm”
-apt-get install npm -y
-npm install -g n
-n stable # latest
-echo "已经安装node$node_version'"
-
 npm install -g pnpm
 
 #安装数据库
