@@ -48,7 +48,7 @@ mv Yunzai yz
 cd yz
 git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai-genshin plugins/genshin
 echo "由于gitee需要验证，所以改为github"
-git clone --depth 1 https://github.com/yoimiya-kokomi/miao-plugin plugins/miao-plugin
+git clone --depth 1 ghfast.top/https://github.com/yoimiya-kokomi/miao-plugin plugins/miao-plugin
 npm install pnpm -g||（npm --registry=https://registry.npmmirror.com install pnpm -g）
 pnpm install -P||（pnpm install -P&&pnpm install -P）
 
