@@ -54,6 +54,11 @@ git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai
 mv Yunzai yz
 
 cd yz
+
+apt install chromium-browser -y
+
+apt install -y --force-yes --no-install-recommends fonts-wqy-microhei
+
 git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai-genshin plugins/genshin
 echo "由于gitee需要验证，所以改为github"
 git clone --depth 1 https://github.com/yoimiya-kokomi/miao-plugin plugins/miao-plugin
@@ -69,10 +74,6 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pillow
 #建议不要动
 
 apt install -y libnss3 libatk1.0-0 libx11-xcb1
-
-pnpm install puppeteer --save
-
-npx puppeteer browsers install chrome
 #安装必要组件puppeteer和chrome
 
 echo "安装完成"
