@@ -55,7 +55,9 @@ mv Yunzai yz
 
 cd yz
 
-apt install chromium-browser -y
+pnpm install chromium -w
+pnpm add puppeteer@19.7.3 -w
+node ./node_modules/puppeteer/install.js
 
 apt install -y --force-yes --no-install-recommends fonts-wqy-microhei
 
