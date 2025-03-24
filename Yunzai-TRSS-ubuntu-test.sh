@@ -9,6 +9,9 @@ echo "3"
 echo "2"
 echo "1"
 
+apt install python3-pip
+#建议不要动
+
 apt update -y&& apt upgrade -y
 #更新软件源
 
@@ -53,6 +56,9 @@ echo"正在安装锅巴面板"
 
 git clone --depth=1 https://gitee.com/guoba-yunzai/guoba-plugin plugins/Guoba-Plugin/
 pnpm i
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pillow
+#建议不要动
 
 echo "安装完成"
 echo "TRSS Yunzai启动"
