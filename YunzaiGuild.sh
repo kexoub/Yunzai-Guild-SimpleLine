@@ -31,6 +31,9 @@ nvm alias default 18
 
 npm install -g pnpm
 
+npm install -g n
+n stable # latest
+
 #安装数据库
 apt install redis-server -y
 
