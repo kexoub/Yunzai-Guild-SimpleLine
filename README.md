@@ -9,7 +9,7 @@ bash < <(curl -sL ghfast.top/raw.githubusercontent.com/kexoub/Yunzai-TRSS-ubuntu
 ```
 原脚本gpt写的
 纯自用，不喜勿喷
-##trss
+## trss
 啥都想要推荐原版 ☞[trss脚本](trss.me) 
-##原版
+## 原版
 原版☞[脚本](https://github.com/XuF163/Yunzai-Guild-SimpleLine/)
