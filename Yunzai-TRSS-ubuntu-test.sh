@@ -35,6 +35,8 @@ nvm install 18
 nvm alias default 18
 #让nvm默认启用nodejs18
 
+apt install npm -y
+
 npm install -g pnpm
 
 npm install -g n
