@@ -53,7 +53,8 @@ mv Yunzai yz
 
 cd yz
 git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai-genshin plugins/genshin
-git clone --depth 1 https://gitee.com/yoimiya-kokomi/miao-plugin plugins/miao-plugin
+echo "由于gitee需要验证，所以改为github"
+git clone --depth 1 https://github.com/yoimiya-kokomi/miao-plugin plugins/miao-plugin
 npm install pnpm -g||（npm --registry=https://registry.npmmirror.com install pnpm -g）
 pnpm install -P||（pnpm install -P&&pnpm install -P）
 clear
@@ -62,4 +63,5 @@ echo "正在安装频道插件"
 git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai-QQGuild-Plugin plugins/QQGuild-Plugin
 pnpm i
 echo "安装完成"
+echo "TRSS Yunzai启动"
 node app
