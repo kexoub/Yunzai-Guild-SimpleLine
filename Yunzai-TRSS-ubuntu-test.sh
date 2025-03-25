@@ -50,9 +50,9 @@ n stable # latest
 apt install redis-server -y
 
 #使用gitee源
-git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai
+git clone --depth 1 https://gitee.com/yoimiya-kokomi/Miao-Yunzai
 
-mv Yunzai yz
+mv Miao-Yunzai yz
 
 cd yz
 
