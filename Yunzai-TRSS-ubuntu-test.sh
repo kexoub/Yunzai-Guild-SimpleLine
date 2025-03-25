@@ -19,8 +19,6 @@ apt-get install -y libxss1 libgbm-dev libnss3 libatk1.0-0 libatk-bridge2.0-0 lib
 apt install ca-certificates fonts-liberation libasound2 libatk-bridge2.0-0 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgbm1 libgcc1 libglib2.0-0 libgtk-3-0 libnspr4 libnss3 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 lsb-release wget xdg-utils libxkbcommon0 -y
 
 
-
-apt install python3-pip
 #建议不要动
 
 mkdir bot && cd bot 
@@ -65,9 +63,6 @@ echo "正在安装锅巴面板"
 git clone --depth=1 https://gitee.com/guoba-yunzai/guoba-plugin plugins/Guoba-Plugin/
 pnpm i
 
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pillow
-#建议不要动
-
 apt install chromium-browser -y
 
 
@@ -83,3 +78,8 @@ echo "TRSS Yunzai启动"
 
 node app
 #草
+
+apt install python3-pip
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pillow
+#建议不要动
