@@ -1,11 +1,11 @@
 # Yunzai-Miao-ubuntu-test
 Ubuntu一键安装Miao崽及锅巴插件和喵喵插件
 ```
-curl -o- https://raw.githubusercontent.com/kexoub/Yunzai-TRSS-ubuntu-test/main/Yunzai-TRSS-ubuntu-test.sh | bash
+curl -o- https://raw.githubusercontent.com/kexoub/Yunzai-Miao-ubuntu-test/main/Yunzai-TRSS-ubuntu-test.sh | bash
 ```
 ## 或者加速
 ```
-curl -o- https://ghfast.top/raw.githubusercontent.com/kexoub/Yunzai-TRSS-ubuntu-test/main/Yunzai-TRSS-ubuntu-test.sh | bash
+curl -o- https://ghfast.top/raw.githubusercontent.com/kexoub/Yunzai-Miao-ubuntu-test/main/Yunzai-TRSS-ubuntu-test.sh | bash
 ```
 原脚本gpt写的
 纯自用，不喜勿喷
