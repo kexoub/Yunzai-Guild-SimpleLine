@@ -1,4 +1,4 @@
-x#!bin/bash
+#!bin/bash
 #感谢时雨对云崽的贡献
 #root校验
 
@@ -11,7 +11,7 @@ echo "1"
 
 apt update -y && apt upgrade -y
 #更新软件源
-apt install curl wget unzip git pm2
+apt install curl wget unzip git
 #下载常用软件
 
 apt install libnss3 libatk1.0-0 libx11-xcb1-  -y
@@ -43,8 +43,8 @@ apt install npm -y
 
 npm install -g pnpm
 
-npm install -g n
-n stable # latest
+pnpm i pm2
+
 
 #安装数据库
 apt install redis-server -y
