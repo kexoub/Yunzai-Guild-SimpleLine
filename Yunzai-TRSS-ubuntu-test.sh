@@ -14,6 +14,9 @@ apt install curl wget unzip git
 
 apt install libnss3 libatk1.0-0 libx11-xcb1-  -y
 
+apt-get install -y libxss1 libgbm-dev libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxrandr2 libgtk-3-0
+
+apt install ca-certificates fonts-liberation libasound2 libatk-bridge2.0-0 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgbm1 libgcc1 libglib2.0-0 libgtk-3-0 libnspr4 libnss3 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 lsb-release wget xdg-utils libxkbcommon0 -y
 
 
 
@@ -67,7 +70,7 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pillow
 
 apt install chromium-browser -y
 
-apt-get install -y software-properties-common
+
 
 apt install -y --force-yes --no-install-recommends fonts-wqy-microhei
 pnpm install -P
